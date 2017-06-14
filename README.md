@@ -1,6 +1,6 @@
 # OnlineChatRobot
 
-This project provide an open-source Online ChatRobot. 
+This project provides an open-source Online ChatRobot. 
 
 ## Requirements
 

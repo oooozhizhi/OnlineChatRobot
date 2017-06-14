@@ -1,5 +1,7 @@
 # OnlineChatRobot
 
+This project provide an open-source Online ChatRobot. 
+
 ## Requirements
 
 * python2.7
@@ -19,7 +21,7 @@ python manage.py migrate
     python manage.py shell
     ```
     
-    * Add Tag record
+    * Add record to the database
     ```python
     from blog.models import Category, Tag, Post
     import datetime

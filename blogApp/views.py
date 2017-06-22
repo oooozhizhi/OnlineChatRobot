@@ -30,6 +30,23 @@ def submit(request):
                   context={'welcome': '欢迎'})
     pass
 
+
+def show_ajax_test_form(request):
+    return render(request, 'blogApp/ajax_test.html')
+
+
+def comments_upload(request):
+    if request.method == 'POST':
+        print "it's a test"
+        print request.POST['name']
+        print request.POST['password']
+
+        return HttpResponse("表单测试成功")
+    else:
+        return HttpResponse("<h1>test</h1>")
+
+
+
 @csrf_exempt
 def investigate(request):
     if request.method == 'POST':
